@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDAC28D10C9900943BAC /* WansinApp.swift */; };
+		1A3AEDAF28D10C9900943BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDAE28D10C9900943BAC /* ContentView.swift */; };
+		1A3AEDB128D10C9900943BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AEDB028D10C9900943BAC /* Assets.xcassets */; };
+		1A3AEDB428D10C9900943BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AEDB328D10C9900943BAC /* Preview Assets.xcassets */; };
+		1A3AEDBE28D10C9A00943BAC /* WansinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDBD28D10C9A00943BAC /* WansinTests.swift */; };
+		1A3AEDC828D10C9A00943BAC /* WansinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDC728D10C9A00943BAC /* WansinUITests.swift */; };
+		1A3AEDCA28D10C9A00943BAC /* WansinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A3AEDBA28D10C9A00943BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3AEDA128D10C9900943BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3AEDA828D10C9900943BAC;
+			remoteInfo = Wansin;
+		};
+		1A3AEDC428D10C9A00943BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A3AEDA128D10C9900943BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3AEDA828D10C9900943BAC;
+			remoteInfo = Wansin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A3AEDA928D10C9900943BAC /* Wansin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wansin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3AEDAC28D10C9900943BAC /* WansinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinApp.swift; sourceTree = "<group>"; };
+		1A3AEDAE28D10C9900943BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A3AEDB028D10C9900943BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3AEDB328D10C9900943BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A3AEDB928D10C9A00943BAC /* WansinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WansinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3AEDBD28D10C9A00943BAC /* WansinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinTests.swift; sourceTree = "<group>"; };
+		1A3AEDC328D10C9A00943BAC /* WansinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WansinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3AEDC728D10C9A00943BAC /* WansinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinUITests.swift; sourceTree = "<group>"; };
+		1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3AEDA628D10C9900943BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AEDB628D10C9A00943BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AEDC028D10C9A00943BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3AEDA028D10C9900943BAC = {
+			isa = PBXGroup;
+			children = (
+				1A3AEDAB28D10C9900943BAC /* Wansin */,
+				1A3AEDBC28D10C9A00943BAC /* WansinTests */,
+				1A3AEDC628D10C9A00943BAC /* WansinUITests */,
+				1A3AEDAA28D10C9900943BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3AEDAA28D10C9900943BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3AEDA928D10C9900943BAC /* Wansin.app */,
+				1A3AEDB928D10C9A00943BAC /* WansinTests.xctest */,
+				1A3AEDC328D10C9A00943BAC /* WansinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3AEDAB28D10C9900943BAC /* Wansin */ = {
+			isa = PBXGroup;
+			children = (
+				1A3AEDAC28D10C9900943BAC /* WansinApp.swift */,
+				1A3AEDAE28D10C9900943BAC /* ContentView.swift */,
+				1A3AEDB028D10C9900943BAC /* Assets.xcassets */,
+				1A3AEDB228D10C9900943BAC /* Preview Content */,
+			);
+			path = Wansin;
+			sourceTree = "<group>";
+		};
+		1A3AEDB228D10C9900943BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A3AEDB328D10C9900943BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A3AEDBC28D10C9A00943BAC /* WansinTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3AEDBD28D10C9A00943BAC /* WansinTests.swift */,
+			);
+			path = WansinTests;
+			sourceTree = "<group>";
+		};
+		1A3AEDC628D10C9A00943BAC /* WansinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A3AEDC728D10C9A00943BAC /* WansinUITests.swift */,
+				1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */,
+			);
+			path = WansinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3AEDA828D10C9900943BAC /* Wansin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3AEDCD28D10C9A00943BAC /* Build configuration list for PBXNativeTarget "Wansin" */;
+			buildPhases = (
+				1A3AEDA528D10C9900943BAC /* Sources */,
+				1A3AEDA628D10C9900943BAC /* Frameworks */,
+				1A3AEDA728D10C9900943BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wansin;
+			productName = Wansin;
+			productReference = 1A3AEDA928D10C9900943BAC /* Wansin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A3AEDB828D10C9A00943BAC /* WansinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3AEDD028D10C9A00943BAC /* Build configuration list for PBXNativeTarget "WansinTests" */;
+			buildPhases = (
+				1A3AEDB528D10C9A00943BAC /* Sources */,
+				1A3AEDB628D10C9A00943BAC /* Frameworks */,
+				1A3AEDB728D10C9A00943BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3AEDBB28D10C9A00943BAC /* PBXTargetDependency */,
+			);
+			name = WansinTests;
+			productName = WansinTests;
+			productReference = 1A3AEDB928D10C9A00943BAC /* WansinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A3AEDC228D10C9A00943BAC /* WansinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3AEDD328D10C9A00943BAC /* Build configuration list for PBXNativeTarget "WansinUITests" */;
+			buildPhases = (
+				1A3AEDBF28D10C9A00943BAC /* Sources */,
+				1A3AEDC028D10C9A00943BAC /* Frameworks */,
+				1A3AEDC128D10C9A00943BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A3AEDC528D10C9A00943BAC /* PBXTargetDependency */,
+			);
+			name = WansinUITests;
+			productName = WansinUITests;
+			productReference = 1A3AEDC328D10C9A00943BAC /* WansinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3AEDA128D10C9900943BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1A3AEDA828D10C9900943BAC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					1A3AEDB828D10C9A00943BAC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1A3AEDA828D10C9900943BAC;
+					};
+					1A3AEDC228D10C9A00943BAC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 1A3AEDA828D10C9900943BAC;
+					};
+				};
+			};
+			buildConfigurationList = 1A3AEDA428D10C9900943BAC /* Build configuration list for PBXProject "Wansin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3AEDA028D10C9900943BAC;
+			productRefGroup = 1A3AEDAA28D10C9900943BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3AEDA828D10C9900943BAC /* Wansin */,
+				1A3AEDB828D10C9A00943BAC /* WansinTests */,
+				1A3AEDC228D10C9A00943BAC /* WansinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3AEDA728D10C9900943BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3AEDB428D10C9900943BAC /* Preview Assets.xcassets in Resources */,
+				1A3AEDB128D10C9900943BAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AEDB728D10C9A00943BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AEDC128D10C9A00943BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3AEDA528D10C9900943BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3AEDAF28D10C9900943BAC /* ContentView.swift in Sources */,
+				1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AEDB528D10C9A00943BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3AEDBE28D10C9A00943BAC /* WansinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A3AEDBF28D10C9A00943BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3AEDCA28D10C9A00943BAC /* WansinUITestsLaunchTests.swift in Sources */,
+				1A3AEDC828D10C9A00943BAC /* WansinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A3AEDBB28D10C9A00943BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3AEDA828D10C9900943BAC /* Wansin */;
+			targetProxy = 1A3AEDBA28D10C9A00943BAC /* PBXContainerItemProxy */;
+		};
+		1A3AEDC528D10C9A00943BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3AEDA828D10C9900943BAC /* Wansin */;
+			targetProxy = 1A3AEDC428D10C9A00943BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A3AEDCB28D10C9A00943BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A3AEDCC28D10C9A00943BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3AEDCE28D10C9A00943BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wansin/Preview Content\"";
+				DEVELOPMENT_TEAM = V9WUS7ZBGW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.Wansin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3AEDCF28D10C9A00943BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wansin/Preview Content\"";
+				DEVELOPMENT_TEAM = V9WUS7ZBGW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.Wansin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A3AEDD128D10C9A00943BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9WUS7ZBGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.WansinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wansin.app/Wansin";
+			};
+			name = Debug;
+		};
+		1A3AEDD228D10C9A00943BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9WUS7ZBGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.WansinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wansin.app/Wansin";
+			};
+			name = Release;
+		};
+		1A3AEDD428D10C9A00943BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9WUS7ZBGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.WansinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wansin;
+			};
+			name = Debug;
+		};
+		1A3AEDD528D10C9A00943BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V9WUS7ZBGW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eus.aitorzubizarreta.WansinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wansin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3AEDA428D10C9900943BAC /* Build configuration list for PBXProject "Wansin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3AEDCB28D10C9A00943BAC /* Debug */,
+				1A3AEDCC28D10C9A00943BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3AEDCD28D10C9A00943BAC /* Build configuration list for PBXNativeTarget "Wansin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3AEDCE28D10C9A00943BAC /* Debug */,
+				1A3AEDCF28D10C9A00943BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3AEDD028D10C9A00943BAC /* Build configuration list for PBXNativeTarget "WansinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3AEDD128D10C9A00943BAC /* Debug */,
+				1A3AEDD228D10C9A00943BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3AEDD328D10C9A00943BAC /* Build configuration list for PBXNativeTarget "WansinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3AEDD428D10C9A00943BAC /* Debug */,
+				1A3AEDD528D10C9A00943BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A3AEDA128D10C9900943BAC /* Project object */;
+}
