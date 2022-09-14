@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A26054228D25B1F00BFCDA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A3AEDA928D10C9900943BAC /* Wansin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wansin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3AEDAC28D10C9900943BAC /* WansinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinApp.swift; sourceTree = "<group>"; };
 		1A3AEDAE28D10C9900943BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		1A3AEDA028D10C9900943BAC = {
 			isa = PBXGroup;
 			children = (
+				1A26054228D25B1F00BFCDA7 /* README.md */,
 				1A3AEDAB28D10C9900943BAC /* Wansin */,
 				1A3AEDBC28D10C9A00943BAC /* WansinTests */,
 				1A3AEDC628D10C9A00943BAC /* WansinUITests */,
