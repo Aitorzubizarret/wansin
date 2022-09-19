@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1029DB28D8F496008730B5 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1029DA28D8F496008730B5 /* NoteViewModel.swift */; };
 		1A26054528D25DFC00BFCDA7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26054428D25DFC00BFCDA7 /* Note.swift */; };
 		1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDAC28D10C9900943BAC /* WansinApp.swift */; };
 		1A3AEDAF28D10C9900943BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDAE28D10C9900943BAC /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A1029DA28D8F496008730B5 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		1A26054228D25B1F00BFCDA7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A26054428D25DFC00BFCDA7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		1A3AEDA928D10C9900943BAC /* Wansin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wansin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A1029D928D8F47A008730B5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A1029DA28D8F496008730B5 /* NoteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		1A26054328D25DE800BFCDA7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +120,7 @@
 		1A3AEDAB28D10C9900943BAC /* Wansin */ = {
 			isa = PBXGroup;
 			children = (
+				1A1029D928D8F47A008730B5 /* ViewModels */,
 				1A26054328D25DE800BFCDA7 /* Models */,
 				1A3AEDAC28D10C9900943BAC /* WansinApp.swift */,
 				1A3AEDAE28D10C9900943BAC /* ContentView.swift */,
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A3AEDAF28D10C9900943BAC /* ContentView.swift in Sources */,
+				1A1029DB28D8F496008730B5 /* NoteViewModel.swift in Sources */,
 				1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */,
 				1A26054528D25DFC00BFCDA7 /* Note.swift in Sources */,
 			);

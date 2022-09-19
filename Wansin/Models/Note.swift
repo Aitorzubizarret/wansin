@@ -6,22 +6,15 @@
 //
 
 import Foundation
-import SwiftUI
 
-class Note: Identifiable {
+struct Note: Codable {
     
     // MARK: - Properties
     
-    let id: UUID
-    let text: String
-    let date: Date
-    
-    // MARK: - Methods
-    
-    init(text: String, date: Date) {
-        self.id = UUID()
-        self.text = text
-        self.date = date
-    }
+    var id: String
+    var text: String
+    var date: Date
     
 }
+
+

@@ -11,11 +11,7 @@ struct ContentView: View {
     
     // MARK: - Properties
     
-    private var notes: [Note] = [
-        Note(text: "First Note text", date: Date().addingTimeInterval(TimeInterval(10))),
-        Note(text: "Second Note text", date: Date().addingTimeInterval(TimeInterval(70))),
-        Note(text: "Third Note text", date: Date().addingTimeInterval(TimeInterval(170)))
-    ]
+    @StateObject var viewModel = NoteViewModel()
     
     // MARK: - Methods
     
@@ -23,8 +19,10 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(notes) { note in
-                Text(note.text)
+            LazyVStack {
+                ForEach($viewModel.allNotes, id: \.wrappedValue.id) { note in
+                    Text(note.wrappedValue.text)
+                }
             }
             .navigationTitle("Notes")
         }
