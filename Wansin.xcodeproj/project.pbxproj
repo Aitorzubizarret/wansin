@@ -10,7 +10,6 @@
 		1A1029DB28D8F496008730B5 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1029DA28D8F496008730B5 /* NoteViewModel.swift */; };
 		1A26054528D25DFC00BFCDA7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26054428D25DFC00BFCDA7 /* Note.swift */; };
 		1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDAC28D10C9900943BAC /* WansinApp.swift */; };
-		1A3AEDAF28D10C9900943BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDAE28D10C9900943BAC /* ContentView.swift */; };
 		1A3AEDB128D10C9900943BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AEDB028D10C9900943BAC /* Assets.xcassets */; };
 		1A3AEDB428D10C9900943BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AEDB328D10C9900943BAC /* Preview Assets.xcassets */; };
 		1A3AEDBE28D10C9A00943BAC /* WansinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDBD28D10C9A00943BAC /* WansinTests.swift */; };
@@ -18,6 +17,7 @@
 		1A3AEDCA28D10C9A00943BAC /* WansinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */; };
 		1A3AEDD828D129AD00943BAC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3AEDD728D129AD00943BAC /* Realm */; };
 		1A3AEDDA28D129AD00943BAC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3AEDD928D129AD00943BAC /* RealmSwift */; };
+		1AF31A3428D91AF900AF18B8 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF31A3328D91AF900AF18B8 /* NotesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		1A26054428D25DFC00BFCDA7 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		1A3AEDA928D10C9900943BAC /* Wansin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wansin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3AEDAC28D10C9900943BAC /* WansinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinApp.swift; sourceTree = "<group>"; };
-		1A3AEDAE28D10C9900943BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A3AEDB028D10C9900943BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A3AEDB328D10C9900943BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A3AEDB928D10C9A00943BAC /* WansinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WansinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		1A3AEDC328D10C9A00943BAC /* WansinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WansinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3AEDC728D10C9A00943BAC /* WansinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinUITests.swift; sourceTree = "<group>"; };
 		1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AF31A3328D91AF900AF18B8 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +120,10 @@
 		1A3AEDAB28D10C9900943BAC /* Wansin */ = {
 			isa = PBXGroup;
 			children = (
-				1A1029D928D8F47A008730B5 /* ViewModels */,
-				1A26054328D25DE800BFCDA7 /* Models */,
 				1A3AEDAC28D10C9900943BAC /* WansinApp.swift */,
-				1A3AEDAE28D10C9900943BAC /* ContentView.swift */,
+				1A26054328D25DE800BFCDA7 /* Models */,
+				1AF31A3228D91AC600AF18B8 /* Views */,
+				1A1029D928D8F47A008730B5 /* ViewModels */,
 				1A3AEDB028D10C9900943BAC /* Assets.xcassets */,
 				1A3AEDB228D10C9900943BAC /* Preview Content */,
 			);
@@ -153,6 +153,14 @@
 				1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */,
 			);
 			path = WansinUITests;
+			sourceTree = "<group>";
+		};
+		1AF31A3228D91AC600AF18B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AF31A3328D91AF900AF18B8 /* NotesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,8 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3AEDAF28D10C9900943BAC /* ContentView.swift in Sources */,
 				1A1029DB28D8F496008730B5 /* NoteViewModel.swift in Sources */,
+				1AF31A3428D91AF900AF18B8 /* NotesView.swift in Sources */,
 				1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */,
 				1A26054528D25DFC00BFCDA7 /* Note.swift in Sources */,
 			);

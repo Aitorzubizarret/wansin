@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  NotesView.swift
 //  Wansin
 //
-//  Created by Aitor Zubizarreta on 13/9/22.
+//  Created by Aitor Zubizarreta on 19/9/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct NotesView: View {
     
     // MARK: - Properties
     
@@ -30,8 +30,8 @@ struct ContentView: View {
     
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct NotesView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NotesView()
     }
 }
