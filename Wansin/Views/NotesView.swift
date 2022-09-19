@@ -11,7 +11,7 @@ struct NotesView: View {
     
     // MARK: - Properties
     
-    @StateObject var viewModel = NoteViewModel()
+    @StateObject var viewModel = NotesViewModel()
     
     // MARK: - Methods
     

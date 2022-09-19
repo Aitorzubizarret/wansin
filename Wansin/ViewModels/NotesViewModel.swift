@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-final class NoteViewModel: ObservableObject {
+final class NotesViewModel: ObservableObject {
     
     @Published var allNotes: [Note] = [
         Note(id: "0", text: "First Note", date: Date()),
