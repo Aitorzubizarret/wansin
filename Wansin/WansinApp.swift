@@ -11,7 +11,33 @@ import SwiftUI
 struct WansinApp: App {
     var body: some Scene {
         WindowGroup {
-            NotesView()
+            TabView {
+                NotesView()
+                    .tabItem {
+                        Label("Notes", systemImage: "doc.plaintext")
+                    }
+                
+                ContactsView()
+                    .tabItem {
+                        Label("Contacts", systemImage: "person")
+                    }
+                
+                CompaniesView()
+                    .tabItem {
+                        Label("Companies", systemImage: "building")
+                    }
+                
+                JobOffersView()
+                    .tabItem {
+                        Label("Job offers", systemImage: "gear")
+                    }
+                
+                CalendarEventsView()
+                    .tabItem {
+                        Label("Events", systemImage: "calendar")
+                    }
+            }
+            
         }
     }
 }

@@ -18,6 +18,10 @@
 		1A3AEDD828D129AD00943BAC /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3AEDD728D129AD00943BAC /* Realm */; };
 		1A3AEDDA28D129AD00943BAC /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1A3AEDD928D129AD00943BAC /* RealmSwift */; };
 		1AF31A3428D91AF900AF18B8 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF31A3328D91AF900AF18B8 /* NotesView.swift */; };
+		1AF9520028D91FF700D5F942 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF951FF28D91FF700D5F942 /* ContactsView.swift */; };
+		1AF9520228D9200600D5F942 /* CompaniesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9520128D9200600D5F942 /* CompaniesView.swift */; };
+		1AF9520428D9202100D5F942 /* JobOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9520328D9202100D5F942 /* JobOffersView.swift */; };
+		1AF9520628D9203E00D5F942 /* CalendarEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9520528D9203E00D5F942 /* CalendarEventsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		1A3AEDC728D10C9A00943BAC /* WansinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinUITests.swift; sourceTree = "<group>"; };
 		1A3AEDC928D10C9A00943BAC /* WansinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WansinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1AF31A3328D91AF900AF18B8 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		1AF951FF28D91FF700D5F942 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		1AF9520128D9200600D5F942 /* CompaniesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesView.swift; sourceTree = "<group>"; };
+		1AF9520328D9202100D5F942 /* JobOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOffersView.swift; sourceTree = "<group>"; };
+		1AF9520528D9203E00D5F942 /* CalendarEventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +167,10 @@
 			isa = PBXGroup;
 			children = (
 				1AF31A3328D91AF900AF18B8 /* NotesView.swift */,
+				1AF951FF28D91FF700D5F942 /* ContactsView.swift */,
+				1AF9520128D9200600D5F942 /* CompaniesView.swift */,
+				1AF9520328D9202100D5F942 /* JobOffersView.swift */,
+				1AF9520528D9203E00D5F942 /* CalendarEventsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,9 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF9520228D9200600D5F942 /* CompaniesView.swift in Sources */,
 				1A1029DB28D8F496008730B5 /* NotesViewModel.swift in Sources */,
 				1AF31A3428D91AF900AF18B8 /* NotesView.swift in Sources */,
 				1A3AEDAD28D10C9900943BAC /* WansinApp.swift in Sources */,
+				1AF9520428D9202100D5F942 /* JobOffersView.swift in Sources */,
+				1AF9520628D9203E00D5F942 /* CalendarEventsView.swift in Sources */,
+				1AF9520028D91FF700D5F942 /* ContactsView.swift in Sources */,
 				1A26054528D25DFC00BFCDA7 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
