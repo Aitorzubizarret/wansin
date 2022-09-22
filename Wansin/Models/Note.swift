@@ -16,5 +16,3 @@ struct Note: Codable {
     var date: Date
     
 }
-
-
