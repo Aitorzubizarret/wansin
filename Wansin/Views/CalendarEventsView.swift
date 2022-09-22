@@ -9,8 +9,23 @@ import SwiftUI
 
 struct CalendarEventsView: View {
     
+    // MARK: - Properties
+    
+    @StateObject var viewModel = CalendarEventsViewModel()
+    
+    // MARK: - Methods
+    
+    // MARK: - Views
+    
     var body: some View {
-        Text("CalendarEventsView")
+        NavigationView {
+            LazyVStack {
+                ForEach($viewModel.allCalendarEvents, id: \.wrappedValue.id) { calendarEvent in
+                    Text("\(calendarEvent.wrappedValue.name)")
+                }
+            }
+            .navigationTitle("Calendar Events")
+        }
     }
     
 }
