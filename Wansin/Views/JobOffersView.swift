@@ -9,8 +9,23 @@ import SwiftUI
 
 struct JobOffersView: View {
     
+    // MARK: - Properties
+    
+    @StateObject var viewModel = JobOffersViewModel()
+    
+    // MARK: - Methods
+    
+    // MARK: - Views
+    
     var body: some View {
-        Text("JobOffersView")
+        NavigationView {
+            LazyVStack {
+                ForEach($viewModel.allJobOffers, id: \.wrappedValue.id) { jobOffer in
+                    Text("\(jobOffer.wrappedValue.name)")
+                }
+            }
+            .navigationTitle("Job Offers")
+        }
     }
     
 }
